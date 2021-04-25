@@ -1,0 +1,157 @@
+@charset "utf-8";
+@media all and ( max-width: 1024px ){
+  #header, #mainbanner, section, #footer{
+    min-width: auto;
+  }
+  .header_wrap, .mainbanner_wrap, .items_box, #footer .footer_wrap{
+    width: auto;
+  }
+  .header_wrap{
+    justify-content: flex-end;
+  }
+  .items_box li{
+    flex-basis: 50%;
+    margin-bottom: 40px;
+  }
+  section .box{
+    width: 100%;
+  }
+  .flogo{
+    margin-right: 105px;
+  }
+}
+
+@media all and ( max-width: 768px ){
+  .header_wrap{
+    width: 100%;
+    justify-content: flex-end;
+  }
+  #mainbanner{
+    height: 600px;
+  }
+  .mainbanner_wrap{
+    /* position: absolute; */
+  }
+  .mainbanner_title{
+    /* top: 90px;
+    left: 20px; */
+  }
+  .mainbanner_video {
+    /* position: relative;
+    height: auto; */
+  }
+  section .inner{
+    flex-wrap: wrap;
+  }
+  h4 span{
+    line-height: 2;
+    display: block;
+  }
+  .region{
+    display: none;
+  }
+}
+
+@media all and ( max-width: 640px ){
+  .common_btn{
+    font-size: 16px;
+  }
+  #gnb{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    background: rgba( 0 0 0 / 0 );
+    transition: .2s;
+    visibility: hidden;
+  }
+  #gnb_check:checked ~ #gnb{
+    background: rgba( 0 0 0 / .15 );
+    visibility: visible;
+  }
+  .header_items{
+    padding: 0;
+  }
+  .logo_area.header_items{
+    padding-left: 20px;
+  }
+  #gnb_btn{
+    display: block;
+  }
+  #gnb_check:checked ~ #gnb ul{
+    right: 0;
+  }
+  #gnb ul{
+    position: relative;
+    display: inline-block;
+    padding-top: 80px;
+    width: 60%;
+    height: 100vh;
+    right: -100%;
+    text-align: right;
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba( 0 0 0 / 0.15 );
+    transition: right .2s;
+  }
+  #gnb li{
+    float: none;
+    transition: background .2s;
+  }
+  #gnb a{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    /* color: #fff; */
+    text-decoration: none;
+    transition: color .2s;
+  }
+  #gnb li:hover{
+    background: #1473e6;
+  }
+  #gnb li:hover a{
+    color: #fff;
+  }
+
+
+  .inner, section .box, section:nth-of-type(5) .inner{
+    min-height: 300px;
+  }
+  #mainbanner h2, .text_box h3, .bottom_banner_title h4, .section_title h4{
+    font-size: 21px;
+    line-height: normal;
+  }
+  #mainbanner p, .text_box p, .bottom_banner_title p{
+    font-size: 16px;
+  }
+  #mainbanner{
+    height: 400px;
+  }
+  .mainbanner_title{
+    top: 90px;
+  }
+  .mainbanner_video{
+    height: 360px;
+  }
+  section:nth-of-type(2) .box.img img{
+    height: 100%;
+  }
+  h4 span {
+    line-height: normal;
+    display: inline;
+  }
+  .items_box li{
+    flex-basis: 100%;
+    padding: 0;
+  }
+  .flogo span{
+    display: inline;
+  }
+  .ftext, .ftext li{
+    margin-top: 10px;
+  }
+}
+
+/* 480 768 1024 */
