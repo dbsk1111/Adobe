@@ -154,6 +154,9 @@
   .mainbanner_video{
     height: 360px;
   }
+  section:nth-of-type(2) .inner{
+    flex-direction: row;
+  }
   section:nth-of-type(2) .box.img img{
     height: 100%;
   }
