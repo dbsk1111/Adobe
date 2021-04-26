@@ -143,6 +143,7 @@
     line-height: normal;
   }
   #mainbanner p, .text_box p, .bottom_banner_title p{
+    margin-top: 15px;
     font-size: 16px;
   }
   #mainbanner{
