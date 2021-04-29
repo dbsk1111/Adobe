@@ -50,9 +50,15 @@
   .region{
     display: none;
   }
+  section .box{
+    justify-content: flex-start;
+  }
 }
 
 @media all and ( max-width: 640px ){
+  #header, #mainbanner, section, #footer{
+    min-width: 320px;
+  }
   .common_btn{
     font-size: 16px;
   }
@@ -135,7 +141,7 @@
   }
 
 
-  .inner, section .box, section:nth-of-type(5) .inner{
+  .inner, section .box{
     min-height: 300px;
   }
   #mainbanner h2, .text_box h3, .bottom_banner_title h4, .section_title h4{

@@ -11,13 +11,15 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/media.css">
   <link rel="icon" href="./img/Adobe_favicon.ico" type="image/x-icon"/>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="./js/scroll.js"></script>
 </head>
 <body>
   <div id="all_wrap">
 <header id="header">
   <div class="header_wrap">
     <h1 class="logo_area header_items">
-      <a href="https://www.adobe.com/products/photoshop.html">
+      <a href="#mainbanner">
         <img src="./img/adobe_logo.svg" alt="Adobe logo"><span>Adobe</span>
       </a>
     </h1>
@@ -46,7 +48,7 @@
     </div> -->
   </div>
 </header>
-<div id="mainbanner">
+<section id="mainbanner">
   <div class="mainbanner_wrap">
     <div class="mainbanner_title">
       <img src="./img/photoshop.svg" alt="Photoshop Icon">
@@ -57,131 +59,131 @@
   </div>
   <video class="mainbanner_video" src="./video/mainbanner_video_1280x720at2400_vp8.webm" type="video/mp4" autoplay muted loop>
     </video>
-</div>
+</section>
 <div class="container">
-<section id="creativity">
-  <div class="inner">
-    <div class="box img">
-      <video class="video" src="./video/section1_video.mp4" type="video/mp4" autoplay muted loop></video>
-    </div>
-    <div class="box">
-      <div class="text_box">
-        <h3>Retouch. Replace.<br>Remix. Remarkable.</h3>
-        <p>Make portraits pop and expressions more expressive.<br>Swap out skies in a click.</p>
-        <a href=#><div class="common_btn btn2">Buy now</div></a>
+  <section id="creativity">
+    <div class="inner">
+      <div class="box img">
+        <video class="image" src="./video/section1_video.mp4" type="video/mp4" autoplay muted loop></video>
+      </div>
+      <div class="box">
+        <div class="text_box">
+          <h3>Retouch. Replace.<br>Remix. Remarkable.</h3>
+          <p>Make portraits pop and expressions more expressive.<br>Swap out skies in a click.</p>
+          <a href=#><div class="common_btn btn1">Buy now</div></a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="transform">
-  <div class="inner">
-    <div class="box img">
-      <img src="./img/section2_img.webp" alt="">
-    </div>
-    <div class="box">
-      <div class="text_box">
-        <h3>Transform photos into<br>flights of pure imagination.</h3>
-        <p>With one-click selections, easy masking<br>You can quickly create what your camera can’t capture.</p>
-        <a href=#><div class="common_btn btn1">Buy now</div></a>
+  </section>
+  <section id="transform">
+    <div class="inner">
+      <div class="box img">
+        <img src="./img/section2_img.webp" alt="" class="image">
+      </div>
+      <div class="box">
+        <div class="text_box">
+          <h3>Transform photos into<br>flights of pure imagination.</h3>
+          <p>With one-click selections, easy masking<br>You can quickly create what your camera can’t capture.</p>
+          <a href=#><div class="common_btn btn1">Buy now</div></a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="brushes">
-  <div class="inner">
-    <div class="box img">
-      <video class="video" src="./video/section3_video.mp4" type="video/mp4" autoplay muted loop></video>
-    </div>
-    <div class="box">
-      <div class="text_box">
-        <h3>A thousand brushes<br>with greatness.</h3>
-        <p>Photoshop puts the world’s<br>largest collection at your fingertips.</p>
-        <a href=#><div class="common_btn btn1">Learn more</div></a>
+  </section>
+  <section id="brushes">
+    <div class="inner">
+      <div class="box img">
+        <video class="image" src="./video/section3_video.mp4" type="video/mp4" autoplay muted loop></video>
+      </div>
+      <div class="box">
+        <div class="text_box">
+          <h3>A thousand brushes<br>with greatness.</h3>
+          <p>Photoshop puts the world’s<br>largest collection at your fingertips.</p>
+          <a href=#><div class="common_btn btn1">Learn more</div></a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="explore" class="bottom_banner">
-  <div class="inner">
-    <div class="bottom_banner_title">
-      <h4>Discover the world <span>of Photoshop.</span></h4>
-      <p>Explore artist stories, tutorials, livestream events, and more.</p>
-      <a href=#><div class="common_btn btn2">Learn more</div></a>
+  </section>
+  <section id="explore" class="bottom_banner">
+    <div class="inner">
+      <div class="bottom_banner_title">
+        <h4>Discover the world <span>of Photoshop.</span></h4>
+        <p>Explore artist stories, tutorials, livestream events, and more.</p>
+        <a href=#><div class="common_btn btn2">Learn more</div></a>
+      </div>
     </div>
-  </div>
-</section>
-<section id="support">
-  <div class="inner">
-    <div class="section_title">
-      <h4>Find the Creative Cloud plan <span>that’s right for you.</span></h4>
+  </section>
+  <section id="support">
+    <div class="inner">
+      <div class="section_title">
+        <h4>Find the Creative Cloud plan <span>that’s right for you.</span></h4>
+      </div>
+      <ul class="items_box">
+        <li>
+          <div class="box_title">
+            <div>Photography (20GB)</div>
+            <p>US$9.99/mo</p>
+            <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
+            <div class="box_icon">
+              <img src="./img/photoshop.svg" alt="Photoshop">
+              <img src="./img/lightroom.svg" alt="Lightroom">
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box_title">
+            <div>Adobe Photoshop App</div>
+            <p>US$20.99/mo</p>
+            <span>Get Photoshop on desktop and iPad as part of Creative Cloud.</span>
+            <div class="box_icon">
+              <img src="./img/photoshop.svg" alt="Photoshop">
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box_title">
+            <div>All Apps</div>
+            <p>US$52.99/mo</p>
+            <span>Get Photoshop on desktop and iPad, plus the entire collection of creative apps.</span>
+            <div class="box_icon">
+              <img src="./img/creative-cloud.svg" alt="Creative Cloud">
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box_title">
+            <div>Students and teachers</div>
+            <p>US$19.99/mo.</p>
+            <span>Save over 60% on the entire collection of Creative Cloud apps.</span>
+            <div class="box_icon">
+              <img src="./img/stock.svg" alt="School only">
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- <ul class="items_box">
+        <li class="box_title">
+            <div> Photography (20GB)</div>
+            <p>US$9.99/mo</p>
+            <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
+        </li>
+        <li class="box_title">
+            <div> Photography (20GB)</div>
+            <p>US$9.99/mo</p>
+            <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
+        </li>
+        <li class="box_title">
+            <div> Photography (20GB)</div>
+            <p>US$9.99/mo</p>
+            <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
+        </li>
+        <li class="box_title">
+            <div> Photography (20GB)</div>
+            <p>US$9.99/mo</p>
+            <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
+        </li>
+      </ul> -->
     </div>
-    <ul class="items_box">
-      <li>
-        <div class="box_title">
-          <div>Photography (20GB)</div>
-          <p>US$9.99/mo</p>
-          <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
-          <div class="box_icon">
-            <img src="./img/photoshop.svg" alt="Photoshop">
-            <img src="./img/lightroom.svg" alt="Lightroom">
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="box_title">
-          <div>Adobe Photoshop App</div>
-          <p>US$20.99/mo</p>
-          <span>Get Photoshop on desktop and iPad as part of Creative Cloud.</span>
-          <div class="box_icon">
-            <img src="./img/photoshop.svg" alt="Photoshop">
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="box_title">
-          <div>All Apps</div>
-          <p>US$52.99/mo</p>
-          <span>Get Photoshop on desktop and iPad, plus the entire collection of creative apps.</span>
-          <div class="box_icon">
-            <img src="./img/creative-cloud.svg" alt="Creative Cloud">
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="box_title">
-          <div>Students and teachers</div>
-          <p>US$19.99/mo.</p>
-          <span>Save over 60% on the entire collection of Creative Cloud apps.</span>
-          <div class="box_icon">
-            <img src="./img/stock.svg" alt="School only">
-          </div>
-        </div>
-      </li>
-    </ul>
-    <!-- <ul class="items_box">
-      <li class="box_title">
-          <div> Photography (20GB)</div>
-          <p>US$9.99/mo</p>
-          <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
-      </li>
-      <li class="box_title">
-          <div> Photography (20GB)</div>
-          <p>US$9.99/mo</p>
-          <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
-      </li>
-      <li class="box_title">
-          <div> Photography (20GB)</div>
-          <p>US$9.99/mo</p>
-          <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
-      </li>
-      <li class="box_title">
-          <div> Photography (20GB)</div>
-          <p>US$9.99/mo</p>
-          <span>Lightroom on desktop and mobile, Lightroom Classic, and Photoshop on desktop and iPad.</span>
-      </li>
-    </ul> -->
-  </div>
-</section>
+  </section>
 </div>
 <footer id="footer">
   <div class="footer_wrap">
