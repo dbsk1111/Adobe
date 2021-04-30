@@ -82,11 +82,11 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba( 0 0 0 / 0 );
+    background: rgba( 0, 0, 0, 0 );
     transition: .2s;
   }
   #gnb_check:checked ~ #gnb .gnb_bg{
-    background: rgba( 0 0 0 / .15 );
+    background: rgba( 0, 0, 0, .15 );
   }
 
   .header_items{
@@ -110,7 +110,7 @@
     right: -100%;
     text-align: right;
     background: #fff;
-    box-shadow: 0 0 5px 0 rgba( 0 0 0 / 0.15 );
+    box-shadow: 0 0 5px 0 rgba( 0, 0, 0, 0.15 );
     transition: right .2s;
     z-index: 100;
   }
