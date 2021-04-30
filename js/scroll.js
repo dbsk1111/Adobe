@@ -24,6 +24,7 @@ $(function(){
         window.scroll({ top: secTop, behavior: 'smooth' });
       }
     })
+    $('#gnb_check').attr('checked',false)
     return false;
   })
 })
