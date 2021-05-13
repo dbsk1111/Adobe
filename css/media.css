@@ -1,11 +1,14 @@
 @charset "utf-8";
-@media all and ( max-width: 1024px ){
+@media all and ( max-width: 1320px ){
   #header, #mainbanner, section, #footer{
     min-width: auto;
   }
   .header_wrap, .mainbanner_wrap, .items_box, #footer .footer_wrap{
     width: auto;
   }
+}
+
+@media all and ( max-width: 1024px ){
   .header_wrap{
     justify-content: flex-end;
   }

@@ -17,7 +17,7 @@ html,body{ width: 100%; height: 100%; }
 #header, #mainbanner, section, #footer{
   min-width: 1320px;
 }
-.header_wrap, .mainbanner_wrap, .items_box, #footer .footer_wrap{
+.header_wrap, .mainbanner_wrap, .items_box, .footer_wrap{
   width: 1320px;
 }
 .inner, section .box{
@@ -353,7 +353,7 @@ section{
 #footer{
   background: #f0f0f0;
 }
-#footer .footer_wrap{
+.footer_wrap{
   overflow: hidden;
   position: relative;
   margin: 0 auto;
@@ -394,13 +394,17 @@ section{
 }
 .region:focus{ border: 1px solid #999999; }
 
-@media all and ( max-width: 1024px ){
+
+@media all and ( max-width: 1320px ){
   #header, #mainbanner, section, #footer{
     min-width: auto;
   }
-  .header_wrap, .mainbanner_wrap, .items_box, #footer .footer_wrap{
+  .header_wrap, .mainbanner_wrap, .items_box, .footer_wrap{
     width: auto;
   }
+}
+
+@media all and ( max-width: 1024px ){
   .header_wrap{
     justify-content: flex-end;
   }
