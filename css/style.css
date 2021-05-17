@@ -395,7 +395,7 @@ section{
 .region:focus{ border: 1px solid #999999; }
 
 
-@media all and ( max-width: 1320px ){
+@media screen and ( max-width: 1320px ){
   #header, #mainbanner, section, #footer{
     min-width: auto;
   }
@@ -404,7 +404,7 @@ section{
   }
 }
 
-@media all and ( max-width: 1024px ){
+@media screen and ( max-width: 1024px ){
   .header_wrap{
     justify-content: flex-end;
   }
@@ -420,7 +420,7 @@ section{
   }
 }
 
-@media all and ( max-width: 768px ){
+@media screen and ( max-width: 768px ){
   .header_wrap{
     width: 100%;
     justify-content: flex-end;
@@ -454,7 +454,7 @@ section{
   }
 }
 
-@media all and ( max-width: 640px ){
+@media screen and ( max-width: 640px ){
   #header, #mainbanner, section, #footer{
     min-width: 320px;
   }
