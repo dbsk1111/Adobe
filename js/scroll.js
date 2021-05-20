@@ -2,7 +2,7 @@ $(function(){
   // 스크롤에 위치에 따라 on 클래스 넣기
   $(window).scroll(function(){
     let wHeight = $(this).height();
-    let thisScrollTop = $(this).scrollTop() + (wHeight / 1.8);
+    let thisScrollTop = $(this).scrollTop() + (wHeight / 1.3);
 
     $('section .box').each(function(){
       let thisOffset = $(this).offset().top;
