@@ -253,11 +253,12 @@ section{
 #explore{
   position: relative;
   color: #fff;
-  background: url('../img/bottom_banner.jpg') center center / cover;
+  background: url('../img/bottom_banner.jpg') center center / auto 100%;
   text-align: center;
   transition: .2s ease;
 }
 #explore:hover{
+  opacity: 0.5;
   background-size: auto 105%;
 }
 .bottom_banner_title h4{
