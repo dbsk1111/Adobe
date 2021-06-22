@@ -258,7 +258,6 @@ section{
   transition: .2s ease;
 }
 #explore:hover{
-  opacity: 0.5;
   background-size: auto 105%;
 }
 .bottom_banner_title h4{
